@@ -56,7 +56,7 @@ const startService = async () => {
     // handleLottery("testnet");
   });
 
-  app.listen(3000, () => {
+  app.listen(4100, () => {
     console.log("====started===");
   });
 };
