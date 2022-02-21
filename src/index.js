@@ -53,7 +53,7 @@ const startService = async () => {
     // run every day
 
     handleLottery("mainnet");
-    handleLottery("testnet");
+    // handleLottery("testnet");
   });
 
   app.listen(3000, () => {
